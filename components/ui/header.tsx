@@ -12,7 +12,7 @@ export default function Header() {
           {/* Site branding */}
           <div className="flex flex-1 items-center">
             <Logo />
-            <h3 className="text-lg font-semibold text-white ml-3">Movies Store</h3> 
+            <h3 className="text-lg font-semibold text-white ml-3">SpendAI</h3> 
             {/* 👆 Adds space between logo & text */}
           </div>
 

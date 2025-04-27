@@ -36,14 +36,14 @@ export default function Features() {
           <div className="mx-auto max-w-3xl pb-4 text-center md:pb-12">
             <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-linear-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-linear-to-l after:from-transparent after:to-indigo-200/50">
               <span className="inline-flex bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                Development Methodology
+                Financial Management
               </span>
             </div>
             <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-              GT Movies Store Description
+              SpendAI Features
             </h2>
             <p className="text-lg text-indigo-200/65">
-              Application Features and SCRUM Assignments
+              Smart Financial Management and AI-Powered Insights
             </p>
           </div>
           <div className="flex justify-center pb-4 md:pb-12" data-aos="fade-up">
@@ -71,10 +71,10 @@ export default function Features() {
                 />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Graphical User Interface
+                Expense Tracking
               </h3>
               <p className="text-indigo-200/65">
-                Our website features a GUI that's clean and easy to use. Users can access different pages, like the movies catalog, cart, past orders, and more through hyperlinks. Administrators can manage movie selection, manage orders, and manage reviews through their own GUI.
+                Easily record and categorize your expenses with our intuitive interface. Track your spending patterns and identify areas for potential savings.
               </p>
             </article>
             <article>
@@ -88,10 +88,10 @@ export default function Features() {
                 <path d="M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                User Account Functionality
+                Budget Management
               </h3>
               <p className="text-indigo-200/65">
-                Users are able to sign up, log in, and reset their password through stand-alone pages. Users also order movies and leave movie reviews using their accounts.
+                Set and adjust monthly spending limits for different categories. Monitor your budget in real-time and receive alerts when approaching limits.
               </p>
             </article>
             <article>
@@ -108,10 +108,10 @@ export default function Features() {
                 />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Movie Selection
+                AI-Powered Insights
               </h3>
               <p className="text-indigo-200/65">
-                Users can search through the list of available movies by name, and they can also browse through the full list if they are unsure of what to watch.
+                Receive personalized financial advice and insights powered by artificial intelligence. Get recommendations for better financial decisions.
               </p>
             </article>
             <article>
@@ -133,10 +133,10 @@ export default function Features() {
                 <path d="m16.321 2-.5-.866 1.733-1 .5.866A22 22 0 0 1 21 12c0 3.852-1.017 7.636-2.948 10.97l-.502.865-1.73-1.003.501-.865A19.878 19.878 0 0 0 19 12a20 20 0 0 0-2.679-10Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Movie Page
+                Financial Reports
               </h3>
               <p className="text-indigo-200/65">
-                Each movie has a stand-alone page where the user can add a movie to cart, leave reviews, view a picture of the movie's cover, and view a description of the movie.
+                View detailed reports and visualizations of your financial data. Analyze trends and make informed decisions about your spending habits.
               </p>
             </article>
             <article>
@@ -153,10 +153,10 @@ export default function Features() {
                 <path d="m7.454 2.891.891-.454L7.437.655l-.891.454a12 12 0 0 0 0 21.382l.89.454.91-1.781-.892-.455a10 10 0 0 1 0-17.818ZM17.456 1.11l-.891-.454-.909 1.782.891.454a10 10 0 0 1 0 17.819l-.89.454.908 1.781.89-.454a12 12 0 0 0 0-21.382Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Reviews
+                Multi-Device Access
               </h3>
               <p className="text-indigo-200/65">
-                Users can leave reviews and edit/delete their reviews. Reviews consist of comments about the movie. 
+                Access your financial data from any device with an internet connection. Stay on top of your finances wherever you are.
               </p>
             </article>
             <article>
@@ -173,10 +173,10 @@ export default function Features() {
                 <path d="M19.406 3.844 6.083 20.497.586 15 2 13.586l3.917 3.917L17.844 2.595l1.562 1.25Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Admin Page
+                Financial Advisor Tools
               </h3>
               <p className="text-indigo-200/65">
-                Administrators can use a password-protected admin page, which allows them to manage reviews, manage the movie catalog, and manage indivdual users' orders. 
+                Special tools for financial advisors to manage clients, view financial data, and provide personalized recommendations.
               </p>
             </article>
           </div>
