@@ -6,14 +6,14 @@ const SQUARE_SIZE = 36; // px
 export default function InteractiveGridBackground() {
   const gridRef = useRef<HTMLDivElement>(null);
   const [dimensions, setDimensions] = useState({
-    rows: Math.ceil(window.innerHeight / SQUARE_SIZE),
-    cols: Math.ceil(window.innerWidth / SQUARE_SIZE),
-    width: window.innerWidth,
-    height: window.innerHeight,
+    rows: 0,
+    cols: 0,
+    width: 0,
+    height: 0,
   });
 
   useEffect(() => {
-    const handleResize = () => {
+    const updateDimensions = () => {
       setDimensions({
         rows: Math.ceil(window.innerHeight / SQUARE_SIZE),
         cols: Math.ceil(window.innerWidth / SQUARE_SIZE),
@@ -21,8 +21,9 @@ export default function InteractiveGridBackground() {
         height: window.innerHeight,
       });
     };
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+    updateDimensions();
+    window.addEventListener("resize", updateDimensions);
+    return () => window.removeEventListener("resize", updateDimensions);
   }, []);
 
   useEffect(() => {
