@@ -32,6 +32,22 @@ export default function HeroHome() {
               >
                 Track, manage, and optimize your finances—anytime, anywhere.
               </p>
+              <div className="flex justify-center">
+                <video
+                  src="/videos/video.mp4"
+                  width={720}
+                  height={405}
+                  controls
+                  autoPlay
+                  loop
+                  muted
+                  style={{ borderRadius: '1rem', maxWidth: '100%', boxShadow: '0 8px 32px rgba(0,0,0,0.25)' }}
+                  poster="/images/hero-image-01.jpg"
+                >
+                  Sorry, your browser does not support embedded videos.
+                </video>
+              </div>
+              <div className="text-sm text-indigo-200/65 mt-2 text-center">3:15</div>
             </div>
           </div>
         </div>
